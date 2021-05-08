@@ -73,13 +73,13 @@ top: -6px;
 left: 20px;
 }
 .bro {
-font-size: 10px;
+font-size: 9px;
 font-weight: 800;
 line-height: 14px;
 text-transform: uppercase;
 display: block;
 line-height: 1em;
-margin-bottom: 15px;
+margin-bottom:0;
 color: #7c7c7d;
 letter-spacing: .14em;
 padding:0
