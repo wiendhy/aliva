@@ -1,0 +1,184 @@
+/* Animation */
+@-webkit-keyframes slide{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:-100%}
+46%{margin-left:-100%}
+50%{margin-left:-200%}
+71%{margin-left:-200%}
+75%{margin-left:-300%}
+96%{margin-left:-300%}}
+@-moz-keyframes slide{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:-100%}
+46%{margin-left:-100%}
+50%{margin-left:-200%}
+71%{margin-left:-200%}
+75%{margin-left:-300%}
+96%{margin-left:-300%}}
+@keyframes slide{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:-100%}
+46%{margin-left:-100%}
+50%{margin-left:-200%}
+71%{margin-left:-200%}
+75%{margin-left:-300%}
+96%{margin-left:-300%}}
+@-webkit-keyframes content-s{0{left:-420px}
+10%{left:0}
+30%{left:0}
+40%{left:0}
+50%{left:0}
+60%{left:0}
+70%{left:0}
+80%{left:-420px}
+90%{left:-420px}
+100%{left:-420px}}
+@-moz-keyframes content-s{0{left:-420px}
+10%{left:0}
+30%{left:0}
+40%{left:0}
+50%{left:0}
+60%{left:0}
+70%{left:0}
+80%{left:-420px}
+90%{left:-420px}
+100%{left:-420px}}
+@keyframes content-s{0{left:-420px}
+10%{left:20px}
+15%{left:0}
+30%{left:0}
+40%{left:0}
+50%{left:0}
+60%{left:0}
+70%{left:0}
+80%{left:-420px}
+90%{left:-420px}
+100%{left:-420px}}
+@-webkit-keyframes on{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:15px}
+46%{margin-left:15px}
+50%{margin-left:30px}
+71%{margin-left:30px}
+75%{margin-left:45px}
+96%{margin-left:45px}}
+@-moz-keyframes on{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:15px}
+46%{margin-left:15px}
+50%{margin-left:30px}
+71%{margin-left:30px}
+75%{margin-left:45px}
+96%{margin-left:45px}}
+@keyframes on{0,100%{margin-left:0}
+21%{margin-left:0}
+25%{margin-left:15px}
+46%{margin-left:15px}
+50%{margin-left:30px}
+71%{margin-left:30px}
+75%{margin-left:45px}
+96%{margin-left:45px}}
+
+/**//* Sky Mega Menu *//**/
+.sky-mega-menu,.sky-mega-menu *{margin:0;padding:0;outline:0 0;border:0;background:0 0}
+.menu-amp{z-index:999;line-height:50px;height:50px;margin:0 auto;text-align:right}
+.menu-amp input{display:none;margin:0;padding:0;width:80px;height:30px;opacity:0;cursor:pointer}
+.menu-amp label{font-size:20px;display:none;width:35px;height:20px;line-height:20px;text-align:center;color:#000}
+.menu-amp label span{font-size:14px;position:absolute;left:16px;top:0;line-height:50px;padding:0 12px;background:#ff7f2a;height:50px;font-weight:500;color:#fff;text-transform:uppercase}
+
+/**//* level 1 *//**/
+.sky-mega-menu{position:;font-size:0;z-index:999;line-height:0;margin:0 auto;text-align:right}
+.sky-mega-menu:after{content:&#39;&#39;;display:table;clear:both}
+.sky-mega-menu li{position:relative;display:inline-block;float:left;padding:2px;font-size:13px;line-height:45px;text-align:left;white-space:nowrap}
+.sky-mega-menu li a{display:block;padding:;font-weight:500;text-decoration:none;color:#666;transition:background .4s,color .4s;-o-transition:background .4s,color .4s;-ms-transition:background .4s,color .4s;-moz-transition:background .4s,color .4s;-webkit-transition:background .4s,color .4s;}
+.sky-mega-menu li&gt;div{position:absolute;z-index:1000;top:100%;left:-9999px;margin-top:58px;background:#fff;-webkit-box-shadow:0 5px 29px -1px rgba(173,170,173,1);-moz-box-shadow:0 5px 29px -1px rgba(173,170,173,1);box-shadow:0 5px 29px -1px rgba(173,170,173,1);opacity:0;padding:15px 0;-o-transform-origin:0;-ms-transform-origin:0;-moz-transform-origin:0;-webkit-transform-origin:0;-o-transition:-o-transform .4s,opacity .4s;-ms-transition:-ms-transform .4s,opacity .4s;-moz-transition:-moz-transform .4s,opacity .4s;-webkit-transition:-webkit-transform .4s,opacity .4s}
+.sky-mega-menu li a:hover{color: var(--navbar-hover-color);}
+.sky-mega-menu li a span.new{position:absolute;right:7px;top:-4px;border-radius:3px;font-size:10px;line-height:17px;padding:0 5px;font-weight:400;background:#41aaeb;color:#fff}
+.sky-mega-menu li a span.new::after{content:&#39;&#39;;position:absolute;bottom:-3px;left:30%;transform:translateX(-50%);border-top:8px solid #41aaeb;border-left:8px solid transparent;border-right:8px solid transparent;transition:all .2s ease-in-out}
+.sky-mega-menu li a span.hot{position:absolute;right:7px;top:-4px;border-radius:3px;font-size:10px;line-height:17px;padding:0 5px;font-weight:400;background:#f81e1e;color:#fff}
+.sky-mega-menu li a span.hot::after{content:&#39;&#39;;position:absolute;bottom:-3px;left:30%;transform:translateX(-50%);border-top:8px solid #f81e1e;border-left:8px solid transparent;border-right:8px solid transparent;transition:all .2s ease-in-out}
+.sky-mega-menu li&gt;div:after{content:&#39;&#39;;position:absolute;bottom:100%;left:0;width:100%;height:8px;background:transparent}
+.sky-mega-menu li&gt;div:before{content:&#39;&#39;;position:absolute;bottom:100%;left:24px;border-right:5px solid transparent;border-bottom:5px solid rgba(255,255,255,0.9);border-left:5px solid transparent}
+.sky-mega-menu li:hover&gt;a,.sky-mega-menu li.current&gt;a{color:#333}
+.sky-mega-menu li:hover&gt;div{left:0;opacity:1;-webkit-transform:translate(0,0)}
+.sky-mega-menu .right{float:none;border-right-width:0;border-left-width:1px}
+.sky-mega-menu .right&gt;div{-o-transform-origin-x:100%;-ms-transform-origin-x:100%;-moz-transform-origin-x:100%;-webkit-transform-origin-x:100%}
+.sky-mega-menu .right:hover&gt;div{right:0;left:auto}
+.sky-mega-menu .right:hover&gt;div:before{right:24px;left:auto}
+.sky-mega-menu .switcher{display:none}
+
+/**//* level 2 + *//**/
+.sky-mega-menu li li{display:block;float:none;border-color:#eee;border-top-width:1px;line-height:21px;white-space:normal}
+.sky-mega-menu li li:first-child{border-top:0}
+.sky-mega-menu li li a{padding-top:8px;padding-right:0;padding-left:12px;padding-bottom:8px;font-weight:400}
+.sky-mega-menu li li a amp-img{max-width: 18px; max-height: 20px;vertical-align: middle;margin-right:5px}
+.sky-mega-menu li li&gt;div{top:0;margin:0 0 0 8px}
+.sky-mega-menu li li&gt;div:after{top:0;right:100%;bottom:auto;left:auto;width:8px;height:100%}
+.sky-mega-menu li li&gt;div:before{top:22px;right:100%;bottom:auto;left:auto;border-top:5px solid transparent;border-right:5px solid rgba(255,255,255,0.9);border-bottom:5px solid transparent}
+.sky-mega-menu li li:hover&gt;div{left:100%}
+.sky-mega-menu .right li&gt;div{margin:0 8px 0 0;-o-transform-origin-x:100%;-ms-transform-origin-x:100%;-moz-transform-origin-x:100%;-webkit-transform-origin-x:100%}
+.sky-mega-menu .right li&gt;div:after{right:auto;left:100%}
+.sky-mega-menu .right li&gt;div:before{right:auto;left:100%;border-right:none;border-left:5px solid rgba(255,255,255,0.9)}
+.sky-mega-menu .right li:hover&gt;div{right:100%;left:auto}
+
+/**//* positions *//**/
+.sky-mega-menu-fixed{position:fixed;top:0;left:0;width:100%}
+.sky-mega-menu-pos-bottom li&gt;div{top:auto;bottom:100%;margin:0 0 8px;-o-transform-origin-y:100%;-ms-transform-origin-y:100%;-moz-transform-origin-y:100%;-webkit-transform-origin-y:100%}
+.sky-mega-menu-pos-bottom li&gt;div:after{top:100%;bottom:auto}
+.sky-mega-menu-pos-bottom li&gt;div:before{top:100%;bottom:auto;border-top:5px solid rgba(255,255,255,0.9);border-right:5px solid transparent;border-bottom:none;border-left:5px solid transparent}
+.sky-mega-menu-pos-bottom li li&gt;div{top:auto;bottom:0}
+.sky-mega-menu-pos-bottom li li&gt;div:before{top:auto;bottom:22px}
+.sky-mega-menu-pos-bottom.sky-mega-menu-fixed{top:auto;bottom:0}
+.sky-mega-menu-pos-left li,.sky-mega-menu-pos-right li{display:block;float:none;border-width:0;border-top-width:1px}
+.sky-mega-menu-pos-left li:first-child,.sky-mega-menu-pos-right li:first-child{border-top:0}
+.sky-mega-menu-pos-left li&gt;div,.sky-mega-menu-pos-right li&gt;div{top:0}
+.sky-mega-menu-pos-left li&gt;div{margin:0 0 0 8px}
+.sky-mega-menu-pos-right li&gt;div{margin:0 8px 0 0;-o-transform-origin-x:100%;-ms-transform-origin-x:100%;-moz-transform-origin-x:100%;-webkit-transform-origin-x:100%}
+.sky-mega-menu-pos-left li&gt;div:after,.sky-mega-menu-pos-right li&gt;div:after{top:0;bottom:auto;width:8px;height:100%}
+.sky-mega-menu-pos-left li&gt;div:after{right:100%;left:auto}
+.sky-mega-menu-pos-right li&gt;div:after{right:auto;left:100%}
+.sky-mega-menu-pos-left li&gt;div:before,.sky-mega-menu-pos-right li&gt;div:before{top:22px;bottom:auto;border-top:5px solid transparent;border-bottom:5px solid transparent}
+.sky-mega-menu-pos-left li&gt;div:before{right:100%;left:auto;border-right:5px solid rgba(255,255,255,0.9)}
+.sky-mega-menu-pos-right li&gt;div:before{right:auto;left:100%;border-left:5px solid rgba(255,255,255,0.9)}
+.sky-mega-menu-pos-left li:hover&gt;div{left:100%}
+.sky-mega-menu-pos-right li:hover&gt;div{right:100%;left:auto}
+.sky-mega-menu-pos-left .bottom&gt;div,.sky-mega-menu-pos-right .bottom&gt;div{top:auto;bottom:0;-o-transform-origin-y:100%;-ms-transform-origin-y:100%;-moz-transform-origin-y:100%;-webkit-transform-origin-y:100%}
+.sky-mega-menu-pos-left .bottom&gt;div:before,.sky-mega-menu-pos-right .bottom&gt;div:before{top:auto;bottom:22px}
+.sky-mega-menu-pos-right li li&gt;div{margin:0 8px 0 0;-o-transform-origin-x:100%;-ms-transform-origin-x:100%;-moz-transform-origin-x:100%;-webkit-transform-origin-x:100%}
+.sky-mega-menu-pos-right li li&gt;div:after{right:auto;left:100%}
+.sky-mega-menu-pos-right li li&gt;div:before{right:auto;left:100%;border-right:none;border-left:5px solid rgba(255,255,255,0.9)}
+.sky-mega-menu-pos-right li li:hover&gt;div{right:100%;left:auto}
+.sky-mega-menu-pos-left.sky-mega-menu-fixed{top:0;right:auto;bottom:0;left:0;width:auto}
+.sky-mega-menu-pos-right.sky-mega-menu-fixed{top:0;right:0;bottom:0;left:auto;width:auto}
+
+/**//* animations *//**/
+.sky-mega-menu-anim-slide li&gt;div{-o-transform:translate(0,60px);-ms-transform:translate(0,60px);-moz-transform:translate(0,60px);-webkit-transform:translate(0,60px)}
+.sky-mega-menu-pos-bottom.sky-mega-menu-anim-slide li&gt;div{-o-transform:translate(0,-60px);-ms-transform:translate(0,-60px);-moz-transform:translate(0,-60px);-webkit-transform:translate(0,-60px)}
+.sky-mega-menu-anim-slide li:hover&gt;div{-o-transform:translate(0,0);-ms-transform:translate(0,0);-moz-transform:translate(0,0);-webkit-transform:translate(0,0)}
+.sky-mega-menu-anim-scale li&gt;div{-o-transform:scale(0,0);-ms-transform:scale(0,0);-moz-transform:scale(0,0);-webkit-transform:scale(0,0)}
+.sky-mega-menu-anim-scale li:hover&gt;div{-o-transform:scale(1,1);-ms-transform:scale(1,1);-moz-transform:scale(1,1);-webkit-transform:scale(1,1)}
+.sky-mega-menu-anim-flip{}
+.sky-mega-menu-anim-flip li&gt;div{transform-style:preserve-3d;-o-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transform:rotateX(-75deg);-o-transform:rotateX(-75deg);-moz-transform:rotateX(-75deg);-webkit-transform:rotateX(-75deg)}
+.sky-mega-menu-anim-flip li:hover&gt;div{transform:rotateX(0);-o-transform:rotateX(0);-moz-transform:rotateX(0);-webkit-transform:rotateX(0)}
+
+/**//* grid *//**/
+.sky-mega-menu .grid-column{float:left;border-color:#eee;border-left-width:1px;border-left-style:solid}
+.sky-mega-menu .grid-column:first-child{margin-left:0;border-left:0}
+.sky-mega-menu .grid-column2,.sky-mega-menu .grid-container2{width:155px}
+.sky-mega-menu .grid-column3,.sky-mega-menu .grid-container3{width:233px}
+.sky-mega-menu .grid-column4,.sky-mega-menu .grid-container4{width:311px}
+.sky-mega-menu .grid-column5,.sky-mega-menu .grid-container5{width:389px}
+.sky-mega-menu .grid-column6,.sky-mega-menu .grid-container6{width:467px}
+.sky-mega-menu .grid-column7,.sky-mega-menu .grid-container7{width:545px}
+.sky-mega-menu .grid-column8,.sky-mega-menu .grid-container8{width:623px}
+.sky-mega-menu .grid-column9,.sky-mega-menu .grid-container9{width:701px}
+.sky-mega-menu .grid-column10,.sky-mega-menu .grid-container10{width:779px}
+.sky-mega-menu .grid-column11,.sky-mega-menu .grid-container11{width:857px}
+.sky-mega-menu .grid-column12,.sky-mega-menu .grid-container12{width:935px}
+
+/**//* icons *//**/
+.sky-mega-menu li a&gt;.fa{display:block;float:left;width:16px;margin:0 10px 0 -4px;font-size:16px;line-height:inherit;text-align:center}
+.sky-mega-menu li a&gt;.fa-single{float:none;margin:0}
+.sky-mega-menu li a&gt;.fa-indicator{position:relative;top:-1px;float:none;display:inline-block;vertical-align:middle;width:auto;margin:0 -10px 0 10px;font-size:9px;line-height:1;text-align:right}
+.sky-mega-menu li li a&gt;.fa-indicator{top:0;float:right;display:block;line-height:inherit}
+
