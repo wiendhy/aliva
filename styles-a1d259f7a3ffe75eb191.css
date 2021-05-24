@@ -1,4 +1,3 @@
-
 ._3rQuG {
   margin: 16px 0;
 }
@@ -10841,8 +10840,8 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
 --------------------------------------------------------------------*/
 .yjDJn {
   background-color: #ECEEF5;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 64px;
+  padding-bottom: 96px;
 }
 ._1UFNk {
   padding-left: 10px;
@@ -11751,7 +11750,7 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
     -ms-flex-direction: row;
         flex-direction: row;
     padding-top: 64px;
-    padding-bottom:64px;
+    padding-bottom: 96px;
   }
 
   ._1MVi4 {
