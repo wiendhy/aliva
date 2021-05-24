@@ -503,8 +503,8 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
 
 ._2e6Ul {
   height: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, “Helvetica Neue”, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, â€œSegoe UIâ€, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, â€œHelvetica Neueâ€, sans-serif;
   font-size: 14px;
 
   background-color: hsl(196, 90%, 31%);
@@ -3040,7 +3040,7 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
   position: relative
 }
 .Ck5w-:before {
-    content: '• ';
+    content: 'â€¢ ';
     position: absolute;
     color: hsl(0, 0%, 60%);
     left: 0;
@@ -10841,8 +10841,8 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
 --------------------------------------------------------------------*/
 .yjDJn {
   background-color: #ECEEF5;
-  padding-top: 44px;
-  padding-bottom: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 ._1UFNk {
   padding-left: 10px;
@@ -11750,8 +11750,8 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
   ._1dyQp {
     -ms-flex-direction: row;
         flex-direction: row;
-    padding-top: 54px;
-    padding-bottom: 426px;
+    padding-top: 64px;
+    padding-bottom:64px;
   }
 
   ._1MVi4 {
@@ -14747,7 +14747,7 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
   margin: 0;
   border: none;
   border-radius: 4px;
-  font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,â€œSegoe UIâ€,Roboto,Oxygen-Sans,Ubuntu,Cantarell,â€œHelvetica Neueâ€,sans-serif;
   text-align: center;
   text-decoration: none;
   cursor: pointer
@@ -15485,7 +15485,7 @@ NOTE: Variables currently do not work with @custom-media. Hardcoding values for 
   font-weight: bold
 }
 .fds-c-form__label label {
-  font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,â€œSegoe UIâ€,Roboto,Oxygen-Sans,Ubuntu,Cantarell,â€œHelvetica Neueâ€,sans-serif;
 }
 .fds-c-form__label label.is-required {
 }
@@ -16587,7 +16587,7 @@ template {
   box-sizing: inherit;
 }
 html {
-  font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,â€œSegoe UIâ€,Roboto,Oxygen-Sans,Ubuntu,Cantarell,â€œHelvetica Neueâ€,sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: hsl(0, 0%, 33%);
@@ -16714,7 +16714,7 @@ ol, ul {
 .fds-c-text-body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,â€œSegoe UIâ€,Roboto,Oxygen-Sans,Ubuntu,Cantarell,â€œHelvetica Neueâ€,sans-serif;
   line-height: 1.5;
   margin-bottom: 16px;
   padding: 0;
@@ -16877,7 +16877,7 @@ ol, ul {
 .fds-c-text-heading {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system,BlinkMacSystemFont,“Segoe UI”,Roboto,Oxygen-Sans,Ubuntu,Cantarell,“Helvetica Neue”,sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,â€œSegoe UIâ€,Roboto,Oxygen-Sans,Ubuntu,Cantarell,â€œHelvetica Neueâ€,sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 16px;
